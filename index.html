@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Responsive Navbar with UiKit </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit-core-rtl.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="index.html" class="uk-navbar-item uk-logo">
+                        <img src="images/logo.jpg" class="logo" alt="logo" srcset="">
+                    </a>
+                    <a class="uk-navbar-toggle dis-none h-40" id="navbar_toggle">
+                        <i uk-icon="icon: menu; ratio: 2"></i>
+                        
+                    </a>
+                    <div class="navbar-collapse" id="navbar_collapse">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="">Home</a></li>
+                            <li class="uk-parent"><a href="">About</a></li>
+                            <li class="uk-parent"><a href="">Blog</a></li>
+                            <li class="uk-parent"><a href="">Services</a></li>
+                            <li><a href="">Log in</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
